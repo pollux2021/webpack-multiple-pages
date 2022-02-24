@@ -1,0 +1,24 @@
+{
+	"compilerOptions": {
+		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"experimentalDecorators": true,
+		"allowSyntheticDefaultImports": true,
+		"jsx": "react",
+		"noUnusedParameters": true,
+		"noUnusedLocals": true,
+		"module": "es2020",
+		// "outDir": "es",
+		// "target": "es5",
+		"declaration": false,
+		"lib": ["es5", "dom"],
+		"types": ["node"],
+		"resolveJsonModule": true,
+		"baseUrl": "./",
+		"paths": {
+			"@/*": ["./src/*"]
+		}
+	},
+	"include": ["src/**/*.ts", "src/**/*.tsx"],
+	"exclude": []
+}
